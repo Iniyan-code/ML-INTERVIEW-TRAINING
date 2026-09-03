@@ -68,3 +68,48 @@ We're going to use scikit-learn, one of the most important Python libraries for 
 In your VS Code terminal, run:
 
 pip install scikit-learn
+
+
+Linear Regression
+
+X_train + y_train
+       ↓
+     .fit()
+       ↓
+    TRAIN
+       ↓
+    MODEL
+       ↓
+ X_test → .predict()
+       ↓
+   y_pred
+       ↓
+Compare with y_test
+       ↓
+   ACCURACY
+
+
+
+✅ Pandas
+✅ DataFrame
+✅ Features X
+✅ Target y
+✅ Train/Test Split
+✅ Logistic Regression
+✅ fit()
+✅ predict()
+✅ Accuracy
+       ↓
+   YOU ARE HERE
+       ↓
+Next: Confusion Matrix
+       ↓
+Precision
+       ↓
+Recall
+       ↓
+F1 Score
+       ↓
+More ML algorithms
+       ↓
+Your Nexus AI sentiment analysis
