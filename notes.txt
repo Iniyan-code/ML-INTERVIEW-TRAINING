@@ -43,3 +43,28 @@ Convert data types
 Handle outliers
 
 This process is called data preprocessing.  
+
+                Dataset
+                   ↓
+          ┌────────┴────────┐
+          ↓                 ↓
+      Training            Testing
+        80%                  20%
+          ↓                 ↓
+      Learn patterns     Check model
+
+      Training data
+     ↓
+   Model
+     ↓
+Same training data
+     ↓
+100%?
+
+2. Install scikit-learn
+
+We're going to use scikit-learn, one of the most important Python libraries for traditional machine learning.
+
+In your VS Code terminal, run:
+
+pip install scikit-learn
