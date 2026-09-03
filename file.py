@@ -28,6 +28,14 @@ print(df.info())
 print("\n--- Statistical Information ---")
 print(df.describe())
 
+print(df.head())       # See data
+print(df.info())       # Understand data
+print(df.describe())   # Statistics
+print(df["Hours"])     # Select a column
+print(df.isnull())     # Find missing values
+print(df.dropna())     # Remove missing values
+print(df.mean(numeric_only=True))    # Calculate average
+
 X = df[["Hours", "Attendance"]]
 y = df["Result"]
 
@@ -36,3 +44,4 @@ print(X)
 
 print("\nTarget (y):")
 print(y)
+
