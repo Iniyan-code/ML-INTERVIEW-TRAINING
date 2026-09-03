@@ -1,0 +1,45 @@
+What is Machine learning?
+
+Machine Learning is a part of Artificial Intelligence 
+where computers learn patterns from data and use those patterns to make predictions 
+or decisions without being explicitly programmed for every situation."
+
+Feature -- an input given for making prediction
+
+dataset 
+
+Target -- the target what we are trying to predict
+
+what is supervised learning?
+Supervised learning is a type of machine learning where the 
+model learns from labeled data, meaning the input data has a known target or output.
+
+Unsupervised learning? we dont have a labeled answer
+
+classification vs regression
+
+Regression
+
+Predicts a continuous numerical value.
+
+Examples:
+
+House price = ₹50,00,000
+Temperature = 32.5°C
+Salary = ₹45,000
+
+Remember:
+
+Classification → category
+
+Regression → number
+
+We may need to:
+
+Handle missing values
+Remove duplicates
+Fix incorrect values
+Convert data types
+Handle outliers
+
+This process is called data preprocessing.  

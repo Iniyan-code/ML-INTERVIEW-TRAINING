@@ -1,0 +1,6 @@
+| Hours | Attendance | Result |
+| ----: | ---------: | ------ |
+|     2 |         60 | Fail   |
+|     4 |         70 | Fail   |
+|     6 |         80 | Pass   |
+|     8 |         90 | Pass   |
