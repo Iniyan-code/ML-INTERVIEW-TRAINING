@@ -27,3 +27,12 @@ print(df.info())
 
 print("\n--- Statistical Information ---")
 print(df.describe())
+
+X = df[["Hours", "Attendance"]]
+y = df["Result"]
+
+print("\nFeatures (X):")
+print(X)
+
+print("\nTarget (y):")
+print(y)
